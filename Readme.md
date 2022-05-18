@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Сергей Башорин](https://up.htmlacademy.ru/htmlcss/34/user/2097541).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Кошара](https://up.htmlacademy.ru/profession/frontender/14/htmlcss/34/user/169035).
 
 ---
 
