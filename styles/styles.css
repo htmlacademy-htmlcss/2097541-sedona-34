@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
 
   font-size: 18px;
   line-height: 21px;
@@ -81,11 +81,11 @@ body {
   text-transform: uppercase;
 }
 
-.background-color-12 {
+.background-color-12-percents {
   background: rgba(131, 179, 211, 0.12);
 }
 
-.background-color-20 {
+.background-color-20-percents {
   background: rgba(131, 179, 211, 0.2);
 }
 
