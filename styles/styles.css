@@ -103,12 +103,18 @@ body {
   text-align: center;
 }
 
-.advantages-item-wrapper {
+.advantages-description-wrapper {
   background: #82B3D3;
   color: #FFFFFF;
+  width: 400px;
+  height: 384px;
+  padding:92px 85px;
+  box-sizing:border-box;
 }
 
-.advantages-item {}
+.advantages-item-wrapper {
+  display:flex;
+}
 
 .advantages-list {
   text-align: center;
@@ -118,6 +124,10 @@ body {
   padding: 0;
 }
 
+.advantages-item-size {
+  width: 400px;
+  height: 384px;
+}
 
 .advantages-title {
   font-weight: 700;
@@ -127,8 +137,8 @@ body {
 }
 
 .advantages-city-list {
-  display: block;
-  margin: 0 auto;
+padding:0;
+display: flex;
 }
 
 .advantages-city-title {
@@ -342,6 +352,12 @@ display:flex;
 .search-hotel-btn {
   font-size: 20px;
   line-height: 36px;
+  border-radius: 4px;
+  width: 574px;
+  height: 60px;
+  padding:0;
+  border:0;
+  margin: 0 313px;
 }
 
 .newsletter-btn {
