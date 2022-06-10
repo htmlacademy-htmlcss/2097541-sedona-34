@@ -179,6 +179,7 @@ body {
   background-repeat: no-repeat;
   background-color: #000000;
   min-height: 411px;
+  margin-bottom: px;
 }
 
 .newsletter-title {
@@ -226,12 +227,15 @@ body {
 }
 
 .footer-social {
-  margin-left: 72px;
+  padding-left: 72px;
+  padding-top: 49px;
   margin-right: 52px;
 }
 
 .footer-contacts {
   text-align: center;
+  margin-right: 53px;
+  padding-top: 40px;
 }
 
 .footer-contacts-address-phone {
@@ -244,7 +248,7 @@ body {
 
 .footer-logo-html-academy {
   margin-right: 72px;
-  margin-left: auto;
+  padding-top: 43px;
 }
 
 .filter-wrapper {
