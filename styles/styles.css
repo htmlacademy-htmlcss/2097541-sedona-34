@@ -33,6 +33,17 @@ body {
   background-color: #FFFFFF;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .main-container {
   flex-grow: 1;
   width: 1200px;
@@ -57,16 +68,39 @@ body {
 }
 
 .navigation-list {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  list-style-type: none;
+}
+
+.navigation-pages-wrapper {
+  min-width: 390px;
+  margin-right: auto;
 }
 
 .navigation-user {
-  margin-right: 40px;
-  margin-left: auto;
+  margin-right: 70px;
+}
+
+.navigation-pages-wrapper .navigation-item {
+  padding: 20px 17px;
+}
+
+.navigation-user-wrapper {
+  min-width: 42px;
+  min-height: 66px;
+}
+
+.navigation-btn-wrapper {
+  padding-top:14px;
+  padding-bottom:14px;
+  padding-left:20px;
 }
 
 .navigation-link {
+  display: block;
   font-size: 20px;
   line-height: 26px;
   text-transform: capitalize;
@@ -409,6 +443,8 @@ body {
 .navigation-btn {
   font-size: 16px;
   line-height: 20px;
+  padding:9px 15px 8px;
+  min-width:160px;
 }
 
 .search-hotel-btn {
