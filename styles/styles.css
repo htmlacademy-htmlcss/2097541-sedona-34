@@ -53,7 +53,7 @@ body {
 .page-header {
   font-weight: 700;
   color: black;
-  margin:0 auto 7px;
+  margin: 0 auto 7px;
   width: 1200px;
 }
 
@@ -118,6 +118,8 @@ body {
   background-repeat: no-repeat;
   background-color: #000000;
   margin-bottom: 63px;
+  padding-top: 51px;
+  padding-bottom: 82px;
 }
 
 .welcome-img {
@@ -126,19 +128,31 @@ body {
   align-items: flex-start;
 }
 
-.advantages h2 {
+.advantages-title {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  margin: 0 auto 31px;
   text-align: center;
   text-transform: uppercase;
   color: black;
 }
 
-.advantages p {
+.advantages-description {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+  margin: 0 auto 90px;
+}
+
+.advantages-list {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .advantages-description-wrapper {
@@ -154,21 +168,12 @@ body {
   display: flex;
 }
 
-.advantages-list {
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  margin: 0;
-  padding: 0;
-}
-
 .advantages-item-size {
   width: 400px;
   height: 384px;
 }
 
-.advantages-title {
+.advantages-item-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -179,6 +184,7 @@ body {
   padding: 0;
   display: flex;
   align-items: flex-start;
+  list-style-type: none;
 }
 
 .advantages-city-title {
@@ -196,6 +202,11 @@ body {
   background: rgba(131, 179, 211, 0.2);
 }
 
+.search-hotel {
+  padding-top: 91px;
+  padding-bottom: 93px;
+}
+
 .search-hotel-title {
   font-weight: 700;
   font-size: 30px;
@@ -203,12 +214,14 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: black;
+  margin: 0 451px 29px 452px;
 }
 
 .search-hotel-description {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+  margin: 0 auto 56px;
 }
 
 .newsletter {
@@ -452,12 +465,13 @@ body {
 }
 
 .search-hotel-btn {
+  display:block;
   font-size: 20px;
   line-height: 36px;
   min-width: 574px;
   min-height: 60px;
-  padding: 0;
-  margin: 0 313px;
+  padding: 12px 15px;
+  margin: 0 auto;
 }
 
 .newsletter-btn {
