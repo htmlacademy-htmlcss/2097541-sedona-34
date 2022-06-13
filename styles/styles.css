@@ -174,7 +174,8 @@ body {
 }
 
 .advantages-item-size {
-  min-width: 400px;
+  box-sizing: border-box;
+  max-width: 400px;
   min-height: 384px;
 }
 
@@ -200,12 +201,17 @@ body {
 .advantages-city-list {
   padding: 0;
   display: flex;
-  align-items: flex-start;
+  flex-wrap: wrap;
+
   list-style-type: none;
 }
 
 .advantages-city-item {
+  padding: 80.5px 85px 79.5px;
+}
 
+.advantages-city-item :last-child {
+  margin-bottom: 0;
 }
 
 .advantages-city-title {
@@ -213,6 +219,22 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-top: 102px;
+}
+
+.advantages-city-description {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.advantages-item-canyon {
+  padding: 103px 85px 102px;
+}
+
+.advantages-item-canyon :last-child {
+  margin-bottom: 0;
 }
 
 .advantages-background-grey {
