@@ -53,13 +53,13 @@ body {
 .page-header {
   font-weight: 700;
   color: black;
+  margin:0 auto 7px;
+  width: 1200px;
 }
 
 .navigation {
   display: flex;
   align-items: flex-start;
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .logo-link {
@@ -68,7 +68,7 @@ body {
 }
 
 .logo-img {
-  display:block;
+  display: block;
 }
 
 .navigation-list {
