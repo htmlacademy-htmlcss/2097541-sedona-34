@@ -607,6 +607,23 @@ body {
   border-radius: 4px;
 }
 
+.newsletter-dark {
+  background: none;
+}
+
+.newsletter-dark .newsletter-title {
+  color: #000000;
+}
+
+.newsletter-dark .newsletter-description {
+  color: #000000;
+}
+
+.newsletter-dark .newsletter-form-email-field {
+  background: #F2F2F2;
+}
+
+
 .btn {
   font-weight: 700;
   text-align: center;
