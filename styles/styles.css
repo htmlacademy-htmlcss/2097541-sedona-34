@@ -44,6 +44,10 @@ body {
   overflow: hidden;
 }
 
+.page-main {
+  padding-top: 7px;
+}
+
 .main-container {
   flex-grow: 1;
   width: 1200px;
@@ -53,7 +57,7 @@ body {
 .page-header {
   font-weight: 700;
   color: black;
-  margin: 0 auto 7px;
+  margin: 0 auto;
   width: 1200px;
 }
 
@@ -394,11 +398,8 @@ body {
   margin-bottom: 43px;
 }
 
-.catalog-header {
-  font-weight: 700;
-  color: black;
-  margin: 0 auto -5px;
-  width: 1200px;
+.main-catalog {
+  margin-top: -5px;
 }
 
 .filter-wrapper {
