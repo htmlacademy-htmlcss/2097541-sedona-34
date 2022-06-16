@@ -121,7 +121,6 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-color: #000000;
-  margin-bottom: 63px;
   padding-top: 51px;
   padding-bottom: 82px;
 }
@@ -130,6 +129,15 @@ body {
   display: block;
   margin: 0 auto;
   align-items: flex-start;
+}
+
+.advantages {
+  padding-top: 63px;
+}
+
+.advantages-title-wrapper {
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .advantages-title {
@@ -211,7 +219,7 @@ body {
 }
 
 .advantages-city-item {
-  padding: 80.5px 85px 79.5px;
+  padding: 182.5px 85px 79.5px;
 }
 
 .advantages-city-item :last-child {
@@ -225,7 +233,6 @@ body {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 30px;
-  padding-top: 102px;
 }
 
 .advantages-city-description {
