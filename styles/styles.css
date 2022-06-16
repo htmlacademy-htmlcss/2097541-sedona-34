@@ -259,6 +259,8 @@ body {
 .search-hotel {
   padding-top: 91px;
   padding-bottom: 93px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .search-hotel-title {
@@ -268,7 +270,8 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: black;
-  margin: 0 451px 29px 452px;
+  margin-bottom: 29px;
+  margin-top: 0;
 }
 
 .search-hotel-description {
