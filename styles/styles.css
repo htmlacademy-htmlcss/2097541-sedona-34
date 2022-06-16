@@ -92,6 +92,10 @@ body {
   padding: 20px 17px;
 }
 
+.navigation-user {
+  padding-left: 30px;
+}
+
 .navigation-user-wrapper {
   min-width: 42px;
   min-height: 66px;
