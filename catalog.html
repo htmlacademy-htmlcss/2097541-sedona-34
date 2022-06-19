@@ -136,16 +136,17 @@
           <option value="popular">Сначала популярные</option>
           <option value="expensive">Сначала дорогие</option>
         </select>
-
-        <a class="cards-view cards-view-grid" href="#">
-          <span class="visually-hidden">Показать сетку</span>
-        </a>
-        <a class="cards-view cards-view-slides" href="#">
-          <span class="visually-hidden">Показать слайды</span>
-        </a>
-        <a class="cards-view cards-view-list" href="#">
-          <span class="visually-hidden">Показать список</span>
-        </a>
+        <div class="cards-view-wrapper">
+          <a class="cards-view cards-view-grid" href="#">
+            <span class="visually-hidden">Показать сетку</span>
+          </a>
+          <a class="cards-view cards-view-slides" href="#">
+            <span class="visually-hidden">Показать слайды</span>
+          </a>
+          <a class="cards-view cards-view-list" href="#">
+            <span class="visually-hidden">Показать список</span>
+          </a>
+        </div>
       </div>
       <ul class="hotel-list">
         <li class="hotel-card">
@@ -214,33 +215,31 @@
 
       </ul>
       <div class="catalog-pagination-wrapper">
-        <div class="catalog-pagination-number">
-          <ol class="pagination">
-            <li class="pagination-item">
-              <a class="pagination-link pagination-current">1</a>
-            </li>
+        <ol class="pagination">
+          <li class="pagination-item">
+            <a class="pagination-link pagination-current">1</a>
+          </li>
 
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">2</a>
-            </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">2</a>
+          </li>
 
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">3</a>
-            </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">3</a>
+          </li>
 
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">4</a>
-            </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">4</a>
+          </li>
 
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">...</a>
-            </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">...</a>
+          </li>
 
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">10</a>
-            </li>
-          </ol>
-        </div>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">10</a>
+          </li>
+        </ol>
         <p class="pagination-view-description">Гостиниц на странице: </p>
         <select class="pagination-view-select" aria-label="Количество карточек на странице">
           <option value="4">4</option>
