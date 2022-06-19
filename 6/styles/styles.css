@@ -44,27 +44,31 @@ body {
   overflow: hidden;
 }
 
+.centering-container {
+  margin: 0 auto;
+}
+
 .main-container {
   flex-grow: 1;
   width: 1200px;
-  margin: -5px auto;
 }
 
 .page-header {
   font-weight: 700;
   color: black;
-  margin: 0 auto;
   width: 1200px;
+  margin-bottom: -5px;
 }
 
 .navigation {
   display: flex;
   align-items: flex-start;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .logo-link {
   position: relative;
-  padding-left: 70px;
   margin-right: 30px;
 }
 
@@ -85,17 +89,16 @@ body {
   margin-right: auto;
 }
 
-.navigation-user {
-  margin-right: 70px;
-}
-
 .navigation-pages-wrapper .navigation-item {
   padding: 20px 17px;
 }
 
+.navigation-user {
+  padding-left: 30px;
+}
+
 .navigation-user-wrapper {
   min-width: 42px;
-  min-height: 66px;
 }
 
 .navigation-btn-wrapper {
@@ -118,7 +121,6 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-color: #000000;
-  margin-bottom: 63px;
   padding-top: 51px;
   padding-bottom: 82px;
 }
@@ -127,6 +129,15 @@ body {
   display: block;
   margin: 0 auto;
   align-items: flex-start;
+}
+
+.advantages {
+  padding-top: 63px;
+}
+
+.advantages-title-wrapper {
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .advantages-title {
@@ -203,12 +214,11 @@ body {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-
   list-style-type: none;
 }
 
 .advantages-city-item {
-  padding: 80.5px 85px 79.5px;
+  padding: 182.5px 85px 79.5px;
 }
 
 .advantages-city-item :last-child {
@@ -222,7 +232,6 @@ body {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 30px;
-  padding-top: 102px;
 }
 
 .advantages-city-description {
@@ -249,6 +258,8 @@ body {
 .search-hotel {
   padding-top: 91px;
   padding-bottom: 93px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .search-hotel-title {
@@ -258,7 +269,8 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: black;
-  margin: 0 451px 29px 452px;
+  margin-bottom: 29px;
+  margin-top: 0;
 }
 
 .search-hotel-description {
@@ -299,7 +311,6 @@ body {
 
 .page-footer {
   width: 1200px;
-  margin: 0 auto;
 }
 
 .newsletter-form {
@@ -325,13 +336,12 @@ body {
 .page-footer-container {
   display: flex;
   align-items: flex-start;
-  padding-left: 72px;
+  padding: 40px 70px 30px;
 }
 
 .footer-social {
-  padding-top: 49px;
+  padding-top: 5px;
   margin-right: 52px;
-  margin-bottom: 54px;
   width: 116px;
 }
 
@@ -358,8 +368,6 @@ body {
   text-align: center;
   min-width: 720px;
   margin-right: 53px;
-  margin-bottom: 30px;
-  padding-top: 40px;
 }
 
 .footer-contacts-title {
@@ -368,6 +376,7 @@ body {
 
 .footer-contacts-address {
   padding-top: 5px;
+  padding-bottom: 5px;
   margin: 0 auto;
 }
 
@@ -377,22 +386,19 @@ body {
   font-size: 40px;
   line-height: 40px;
   margin: 0 auto;
-  padding-bottom: 5px;
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
 }
 
 .footer-logo-html-academy {
-  padding-top: 43px;
+  padding-top: 9px;
 }
 
 .footer-logo-html-academy-link {
   display: block;
   min-width: 115px;
   min-height: 34px;
-  margin-right: 72px;
-  margin-bottom: 43px;
 }
 
 .filter-wrapper {
@@ -455,6 +461,10 @@ body {
   text-transform: capitalize;
 }
 
+.catalog-hotel-sort {
+  padding: 50px 71px 25px 73px;
+}
+
 .catalog-hotel-sort-title {
   margin: 0;
 }
@@ -478,9 +488,7 @@ body {
 .catalog-sort-wrapper {
   display: flex;
   align-items: center;
-  padding-left: 72px;
   margin-bottom: 56px;
-  padding-top: 50px;
 }
 
 .catalog-sort-wrapper :last-child {
@@ -516,7 +524,7 @@ body {
   align-items: flex-start;
   margin-top: 0;
   margin-bottom: 96px;
-  padding-left: 73px;
+  padding-left: 0;
 }
 
 .hotel-card-link {
@@ -548,8 +556,7 @@ body {
 
 .catalog-pagination-wrapper {
   display: flex;
-  padding-left: 73px;
-  margin-bottom: 25px;
+  align-items: center;
 }
 
 .pagination {
@@ -567,7 +574,7 @@ body {
 }
 
 .catalog-pagination-number {
-  margin-right: 270px;
+  margin-right: auto;
 }
 
 .pagination-item:not(:last-child) {
@@ -600,9 +607,8 @@ body {
 
 .pagination-view-select {
   min-width: 160px;
-  min-height: 49px;
-  margin: auto 0;
-  padding-left: 14px;
+  max-height: 49px;
+  padding: 14px 20px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
 }
