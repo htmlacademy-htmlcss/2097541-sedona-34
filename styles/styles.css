@@ -44,7 +44,7 @@ body {
   overflow: hidden;
 }
 
-.centering-container {
+.container {
   margin: 0 auto;
 }
 
@@ -218,7 +218,7 @@ body {
 }
 
 .advantages-city-item {
-  padding: 182.5px 85px 79.5px;
+  padding: 182px 85px 80px;
 }
 
 .advantages-city-item :last-child {
