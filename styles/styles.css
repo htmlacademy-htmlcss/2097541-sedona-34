@@ -520,12 +520,13 @@ body {
 }
 
 .hotel-list {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
+  gap: 0 18px;
   margin-top: 0;
   margin-bottom: 96px;
-  padding-left: 0;
+  padding-left:0;
+  list-style-type: none;
 }
 
 .hotel-card-link {
