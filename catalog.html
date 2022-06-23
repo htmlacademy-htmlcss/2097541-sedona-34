@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <header class="page-header centering-container">
+  <header class="page-header container">
     <nav class="navigation">
       <a class="logo-link" href="index.html">
         <img class="logo-img" src="images/logo.svg" width="139" height="70" alt="Логотип Седоны">
@@ -42,7 +42,7 @@
     </nav>
   </header>
 
-  <main class="main-catalog main-container centering-container">
+  <main class="main-catalog main-container container">
     <div class="filter-wrapper">
       <div class="catalog-hotels-filter-content">
         <section class="catalog-header">
@@ -63,7 +63,7 @@
           <h2 class="visually-hidden">Фильтр гостиниц</h2>
           <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
 
-            <fieldset class="catalog-filter-group">
+            <fieldset class="catalog-filter-group catalog-filter-infrastructure">
               <legend class="catalog-filter-title">Инфраструктура:</legend>
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
@@ -89,7 +89,7 @@
               </ul>
             </fieldset>
 
-            <fieldset class="catalog-filter-group">
+            <fieldset class="catalog-filter-group catalog-filter-type">
               <legend class="catalog-filter-title">Тип Жилья:</legend>
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
@@ -149,11 +149,13 @@
         </div>
       </div>
       <ul class="hotel-list">
-        <li class="hotel-card">
-          <article>
-            <a class="hotel-card-link" href="#">
+        <li class="hotel-card-item">
+          <article class="hotel-card">
+            <a class="hotel-card-img-link" href="#">
               <img class="hotel-card-img" src="images/hotel-cards/Amara-Resort-Spa.jpg" width="300" height="211"
                 alt="Звездное небо, видимое из пещеры">
+            </a>
+            <a class="hotel-card-title-link" href="#">
               <h3 class="hotel-card-title">Amara Resort & Spa</h3>
             </a>
             <span class="hotel-card-type">Гостиница</span>
@@ -161,15 +163,17 @@
             <a class="btn btn-brown hotel-card-more" href="#">Подробнее</a>
             <button class="btn btn-blue hotel-card-btn" type="button">В избранное</button>
             <img class="hotel-card-stars-img" src="images/stars-4.svg" width="140" height="37" alt="4 звезды">
-            <p class="rating-description">Рейтинг:<span class="rating-value">8,5</span></p>
+            <p class="rating-description">Рейтинг: <span class="rating-value">8,5</span></p>
           </article>
         </li>
 
-        <li class="hotel-card">
-          <article>
-            <a class="hotel-card-link" href="#">
+        <li class="hotel-card-item">
+          <article class="hotel-card">
+            <a class="hotel-card-img-link" href="#">
               <img class="hotel-card-img" src="images/hotel-cards/Villas-at-Poco-Diablo.jpg" width="300" height="211"
                 alt="Горный пейзаж и радуга">
+            </a>
+            <a class="hotel-card-title-link" href="#">
               <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
             </a>
             <span class="hotel-card-type">Гостиница</span>
@@ -177,15 +181,17 @@
             <a class="btn btn-brown hotel-card-more" href="#">Подробнее</a>
             <button class="btn btn-green hotel-card-btn hotel-card-favorites-btn" type="button">В избранном</button>
             <img class="hotel-card-stars-img" src="images/stars-4.svg" width="140" height="37" alt="4 звезды">
-            <p class="rating-description">Рейтинг:<span class="rating-value">9,2</span></p>
+            <p class="rating-description">Рейтинг: <span class="rating-value">9,2</span></p>
           </article>
         </li>
 
-        <li class="hotel-card">
-          <article>
-            <a class="hotel-card-link" href="#">
+        <li class="hotel-card-item">
+          <article class="hotel-card">
+            <a class="hotel-card-img-link" href="#">
               <img class="hotel-card-img" src="images/hotel-cards/Desert-Quail-Inn.jpg" width="300" height="211"
                 alt="Горный пейзаж на фоне чистого неба">
+            </a>
+            <a class="hotel-card-title-link" href="#">
               <h3 class="hotel-card-title">Desert Quail Inn</h3>
             </a>
             <span class="hotel-card-type">Гостиница</span>
@@ -193,15 +199,17 @@
             <a class="btn btn-brown hotel-card-more" href="#">Подробнее</a>
             <button class="btn btn-blue hotel-card-btn" type="button">В избранное</button>
             <img class="hotel-card-stars-img" src="images/stars-3.svg" width="140" height="37" alt="3 звезды">
-            <p class="rating-description">Рейтинг:<span class="rating-value">6,9</span></p>
+            <p class="rating-description">Рейтинг: <span class="rating-value">6,9</span></p>
           </article>
         </li>
 
-        <li class="hotel-card">
-          <article>
-            <a class="hotel-card-link" href="#">
+        <li class="hotel-card-item">
+          <article class="hotel-card">
+            <a class="hotel-card-img-link" href="#">
               <img class="hotel-card-img" src="images/hotel-cards/Gree-Tree-Inn.jpg" width="300" height="211"
                 alt="Горный пейзаж на фоне бесчисленных звезд ночного неба">
+            </a>
+            <a class="hotel-card-title-link" href="#">
               <h3 class="hotel-card-title">GreenTree Inn</h3>
             </a>
             <span class="hotel-card-type">Гостиница</span>
@@ -209,7 +217,7 @@
             <a class="btn btn-brown hotel-card-more" href="#">Подробнее</a>
             <button class="btn btn-blue hotel-card-btn" type="button">В избранное</button>
             <img class="hotel-card-stars-img" src="images/stars-2.svg" width="140" height="37" alt="2 звезды">
-            <p class="rating-description">Рейтинг:<span class="rating-value">5,0</span></p>
+            <p class="rating-description">Рейтинг: <span class="rating-value">5,0</span></p>
           </article>
         </li>
 
@@ -250,7 +258,7 @@
     </section>
   </main>
 
-  <footer class="page-footer centering-container">
+  <footer class="page-footer container">
     <section class="newsletter newsletter-dark">
       <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
       <p class="newsletter-description">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
