@@ -116,6 +116,22 @@ body {
   text-decoration: none;
 }
 
+.navigation-search .navigation-link {
+  background-image: url("../images/search.svg");
+  min-height: 65px;
+  min-width: 42px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navigation-favorite .navigation-link {
+  background-image: url("../images/favorite.svg");
+  min-height: 65px;
+  min-width: 42px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .welcome-wrapper {
   background-image: url("../images/welcome-background.jpg");
   background-size: 100% auto;
@@ -255,6 +271,33 @@ body {
   background: rgba(131, 179, 211, 0.2);
 }
 
+.advantages-logo-house {
+  background-image: url("../images/advantages-logo-house.svg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 80px;
+  min-width: 75px;
+  min-height: 72px;
+}
+
+.advantages-logo-burger {
+  background-image: url("../images/advantages-logo-burger.svg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 80px;
+  min-width: 75px;
+  min-height: 72px;
+}
+
+.advantages-logo-present {
+  background-image: url("../images/advantages-logo-present.svg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 80px;
+  min-width: 75px;
+  min-height: 72px;
+}
+
 .search-hotel {
   padding-top: 91px;
   padding-bottom: 93px;
@@ -341,6 +384,7 @@ body {
 
 .footer-social {
   padding-top: 5px;
+  padding-bottom: 5px;
   margin-right: 52px;
   width: 116px;
 }
@@ -355,13 +399,15 @@ body {
 }
 
 .footer-social-item {
-  min-width: 21px;
-  min-height: 17px;
   margin-right: 26px;
 }
 
 .footer-social-item:nth-child(3n) {
   margin-right: 0;
+}
+
+.footer-social-link {
+  display:block;
 }
 
 .footer-contacts {
