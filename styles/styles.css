@@ -400,16 +400,11 @@ body {
 }
 
 .footer-social-item {
-  padding-left: 10px;
-  padding-right: 10px;
-  margin: auto;
+  display: flex;
   min-width: 47px;
-  box-sizing: border-box;
-}
-
-.social-icon {
-  display: block;
-  margin: auto;
+  min-height: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-contacts {
