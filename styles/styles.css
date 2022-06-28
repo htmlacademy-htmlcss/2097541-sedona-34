@@ -136,6 +136,25 @@ body {
   background-position: center;
 }
 
+.navigation-favorite-circle {
+  position: absolute;
+  border-radius: 10px;
+  background: #7DB54F;
+  width: 20px;
+  height: 20px;
+  left: 24px;
+  top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-favorite-value {
+  font-size: 10px;
+  line-height: 13px;
+  color: white;
+}
+
 .navigation-page-current::before {
   position: absolute;
   right: 17px;
