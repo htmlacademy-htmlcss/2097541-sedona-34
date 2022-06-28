@@ -148,12 +148,23 @@ body {
 
 
 .welcome-wrapper {
+  position: relative;
   background-image: url("../images/welcome-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-color: #000000;
   padding-top: 51px;
   padding-bottom: 82px;
+}
+
+.welcome-wrapper::before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/welcome-wave.svg");
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 57px;
 }
 
 .welcome-img {
@@ -689,14 +700,14 @@ body {
 }
 
 .catalog-pagination-wrapper::before {
-    position: absolute;
-    right: 0;
-    bottom: 90px;
-    left: 0;
-    height: 1px;
-    background-color: #E6E6E6;
-    content: "";
-  }
+  position: absolute;
+  right: 0;
+  bottom: 90px;
+  left: 0;
+  height: 1px;
+  background-color: #E6E6E6;
+  content: "";
+}
 
 .pagination {
   font-weight: 700;
