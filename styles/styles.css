@@ -107,6 +107,10 @@ body {
   padding-left: 20px;
 }
 
+.navigation-item {
+  position: relative;
+}
+
 .navigation-link {
   display: block;
   font-size: 20px;
@@ -131,6 +135,17 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.navigation-page-current::before {
+  position: absolute;
+  right: 17px;
+  bottom: 0;
+  left: 17px;
+  height: 2px;
+  background-color: #756257;
+  content: "";
+}
+
 
 .welcome-wrapper {
   background-image: url("../images/welcome-background.jpg");
@@ -475,10 +490,14 @@ body {
   padding-left: 0;
 }
 
-.breadcrumbs-item {
+.breadcrumbs-item:not(:first-child) {
   min-height: 12px;
   min-width: 12px;
-  margin: auto 25px auto 0;
+  padding-left: 25px;
+  background-image: url("../images/filter-arrow.svg");
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: center;
 }
 
 .breadcrumbs-list :last-child {
@@ -489,6 +508,7 @@ body {
   font-size: 16px;
   line-height: 21px;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 .catalog-filter {
@@ -575,11 +595,12 @@ body {
 
 .select-control {
   margin-right: 78px;
-  padding: 14px 129px 14px 20px;
+  padding: 12px 18px;
   font-size: 18px;
   line-height: 21px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
+  min-width: 290px;
 }
 
 .cards-view-wrapper {
@@ -591,13 +612,19 @@ body {
 }
 
 .cards-view {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
   min-height: 48px;
   min-width: 48px;
   margin-right: 8px;
-  border: 2px solid #000000;
+  border: 2px solid #E5E5E5;
   border-radius: 4px;
+}
+
+.cards-view-current {
+  border: 2px solid #000000;
 }
 
 .hotel-list {
@@ -656,9 +683,20 @@ body {
 }
 
 .catalog-pagination-wrapper {
+  position: relative;
   display: flex;
   align-items: center;
 }
+
+.catalog-pagination-wrapper::before {
+    position: absolute;
+    right: 0;
+    bottom: 90px;
+    left: 0;
+    height: 1px;
+    background-color: #E6E6E6;
+    content: "";
+  }
 
 .pagination {
   font-weight: 700;
