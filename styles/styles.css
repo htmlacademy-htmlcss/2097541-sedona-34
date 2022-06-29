@@ -454,8 +454,7 @@ body {
 
 .footer-contacts {
   text-align: center;
-  min-width: 720px;
-  margin-right: 41.5px;
+  margin-right: 42px;
 }
 
 .footer-contacts-title {
@@ -463,9 +462,7 @@ body {
 }
 
 .footer-contacts-address {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin: 0 auto;
+  padding: 5px 194px 0;
 }
 
 .footer-contacts-address-phone {
@@ -473,10 +470,10 @@ body {
   font-style: normal;
   font-size: 40px;
   line-height: 40px;
-  margin: 0 auto;
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
+  padding-bottom: 5px;
 }
 
 .footer-logo-html-academy {
@@ -846,8 +843,44 @@ body {
   background: #756157;
 }
 
+.btn-brown:hover {
+  background: #615048;
+}
+
+.btn-brown:focus {
+  background: #615048;
+  outline: none;
+}
+
+.btn-brown:active {
+  background: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-brown:disabled {
+  background: #E5E5E5;
+}
+
 .btn-blue {
   background: #82B3D3;
+}
+
+.btn-blue:hover {
+  background: #68A2CA;
+}
+
+.btn-blue:focus {
+  background: #68A2CA;
+  outline: none;
+}
+
+.btn-blue:active {
+  background: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-blue:disabled {
+  background: #E5E5E5;
 }
 
 .catalog-filter-btn {
@@ -872,6 +905,24 @@ body {
 
 .hotel-card-favorites-btn {
   background: #7DB54F;
+}
+
+.btn-green:hover {
+  background: #6C9E42;
+}
+
+.btn-green:focus {
+  background: #6C9E42;
+  outline: none;
+}
+
+.btn-green:active {
+  background: #7DB54F;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-green:disabled {
+  background: #E5E5E5;
 }
 
 .rating-description {
