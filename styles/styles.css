@@ -843,6 +843,10 @@ body {
   padding: 11px 12px 12px 12px;
 }
 
+.pagination-link:active:not(.pagination-current) {
+  color:rgba(255, 255, 255, 0.3);
+}
+
 .pagination-current {
   background: #F2F2F2;
   color: #000000;
