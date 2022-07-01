@@ -411,7 +411,7 @@ justify-content: center;
 }
 
 .newsletter-form-email {
-  margin: 0;
+  margin: auto 0;
 }
 
 .newsletter-form-email-field {
@@ -574,7 +574,7 @@ justify-content: center;
   display: flex;
   list-style-type: none;
   margin: 0;
-  padding-left: 0;
+  padding-left: 2px;
 }
 
 .breadcrumbs-item:not(:first-child) {
@@ -597,6 +597,7 @@ justify-content: center;
   text-decoration: none;
   box-sizing: border-box;
   display: block;
+  color: white;
 }
 
 .breadcrumbs-icon {
