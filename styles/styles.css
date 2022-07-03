@@ -407,7 +407,7 @@ body {
 
 .newsletter-form {
   display: flex;
-justify-content: center;
+  justify-content: center;
 }
 
 .newsletter-form-email {
@@ -662,9 +662,44 @@ justify-content: center;
   margin-right: auto;
 }
 
-.control-input {
-  margin: 0 19px 0 0;
+.control {
+  position: relative;
+  display: block;
+}
+
+.control-label {
+  padding-left: 40px;
+}
+
+.control-mark {
+  position: absolute;
+  background: #FFFFFF;
   border-radius: 4px;
+  width: 20px;
+  height: 20px;
+}
+
+.control-input[type="checkbox"]:checked+.control-mark:before {
+  position:absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/check-mark.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  content:"";
+}
+
+.control-input[type="checkbox"]:hover+.control-mark {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.control-input[type="checkbox"]:focus+.control-mark {
+  background: rgba(255, 255, 255, 0.6);
+  outline: 3px solid #83B3D3;
+}
+
+.control-input[type="checkbox"]:disabled+.control-mark {
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .catalog-filter-btn-wrapper {
