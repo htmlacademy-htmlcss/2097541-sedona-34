@@ -726,6 +726,92 @@ body {
   outline: 3px solid #83B3D3;
 }
 
+.catalog-filter-slider {
+  margin-right: 70px;
+}
+
+.range-scale {
+  position: relative;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.range-input-wrapper {
+  display: flex;
+  padding-top: 4px;
+  margin-bottom: 32px;
+  width: 288px;
+}
+
+.range-input-label {
+  position: relative;
+}
+
+.range-input {
+  font-family: 'PT Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 12px 31px 11px 18px;
+  max-width: 144px;
+  box-sizing: border-box;
+  background: none;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+.range-input-description {
+  position: absolute;
+  color: #FFFFFF;
+  right: 14px;
+  top: 12px;
+  opacity: 0.3;
+}
+
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.range-min-price {
+  border-radius: 4px 0 0 4px;
+  border-style: solid;
+  border-right-width: 1px;
+}
+
+.range-max-price {
+  border-radius: 0 4px 4px 0;
+  border-style: solid;
+  border-left-width: 1px;
+}
+
+.range-bar {
+  position: absolute;
+  background: #FFFFFF;
+  height: 4px;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  border-width: 0;
+  cursor: pointer;
+}
+
+.toggle-min {
+  top: -8px;
+  left: -10px;
+}
+
+.toggle-max {
+  top: -8px;
+  left: 218px;
+}
+
 .catalog-filter-btn-wrapper {
   display: flex;
   flex-direction: column;
