@@ -560,8 +560,24 @@ body {
 .modal {
   position: relative;
   margin: auto;
-  padding: 54px 70px 70px;
+  padding: 62px 70px 70px;
   background-color: #ffffff;
+}
+
+.modal-close-button {
+  position: absolute;
+  padding: 0;
+  top: 0;
+  right: 0;
+  width: 53px;
+  height: 53px;
+  background: #F2F2F2;
+  border-radius: 50%;
+  border: none;
+  background-image: url("../images/cross-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
 }
 
 .filter-wrapper {
