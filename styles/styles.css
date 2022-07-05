@@ -546,6 +546,24 @@ body {
   ;
 }
 
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: rgba(242, 242, 242, 0.8);
+  z-index: 2;
+}
+
+.modal {
+  position: relative;
+  margin: auto;
+  padding: 54px 70px 70px;
+  background-color: #ffffff;
+}
+
 .filter-wrapper {
   color: #FFFFFF;
   background: url("../images/filter-background.jpg");
