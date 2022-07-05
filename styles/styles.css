@@ -727,7 +727,7 @@ body {
 }
 
 .catalog-filter-slider {
-  margin-right: 70px;
+  margin-right: 73px;
 }
 
 .range-scale {
@@ -739,7 +739,7 @@ body {
 .range-input-wrapper {
   display: flex;
   padding-top: 4px;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
   width: 288px;
 }
 
@@ -758,6 +758,19 @@ body {
   background: none;
   color: #FFFFFF;
   border-color: #FFFFFF;
+}
+
+.range-input:hover {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.range-input:focus {
+  outline: none;
+  box-shadow: 0px 0px 0px 3px #81B3D2;
+}
+
+.range-input:active {
+  background: #756257;
 }
 
 .range-input-description {
@@ -802,6 +815,20 @@ body {
   cursor: pointer;
 }
 
+.range-toggle:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.range-toggle:focus {
+  outline: 3px solid #83B3D3;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.range-toggle:active {
+  outline: 2px solid #83B3D3;
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.4);
+}
+
 .toggle-min {
   top: -8px;
   left: -10px;
@@ -809,7 +836,7 @@ body {
 
 .toggle-max {
   top: -8px;
-  left: 218px;
+  left: 208px;
 }
 
 .catalog-filter-btn-wrapper {
