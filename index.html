@@ -198,9 +198,36 @@
 
   <div class="modal-container">
     <div class="modal modal-search">
-      <button class="modal-close-button">
-        <span class="visually-hidden">Закрыть</span>
-      </button>
+      <section class="modal-content">
+        <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+        <button class="modal-close-button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+        <form class="modal-search-form">
+          <label class="modal-search-label">
+            <p class="modal-search-description">Дата заезда:</p>
+            <input type="" name="">
+          </label>
+          <p class="modal-search-result">Мы не можем отправить вас в прошлое.</p>
+
+          <label class="modal-search-label">
+            <p class="modal-search-description">Дата выезда:</p>
+            <input type="" name="">
+          </label>
+          <p class="modal-search-result">На эти даты есть свободные номера. Пока есть.</p>
+          <div class="modal-search-wrapper">
+            <label class="modal-search-label">
+              <p class="modal-search-description adults-description">Взрослые:</p>
+              <input class="modal-search-counter" type="" name="">
+            </label>
+            <label class="modal-search-label">
+              <p class="modal-search-description children-description">Дети:</p>
+              <input class="modal-search-counter" type="" name="">
+            </label>
+          </div>
+          <button class="btn btn-blue btn-modal-search" type="submit">Найти</button>
+      </section>
+      </form>
     </div>
   </div>
 
