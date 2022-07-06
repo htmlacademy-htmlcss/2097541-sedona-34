@@ -641,6 +641,11 @@ body {
   border: none;
   background: #F2F2F2;
   border-radius: 4px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .modal-search-date {
@@ -699,6 +704,41 @@ body {
   min-height: 50px;
   box-sizing: border-box;
   outline: none;
+  padding: 14px 42px;
+  text-align: center;
+}
+
+.search-input-wrapper {
+  position: relative;
+}
+
+.button-counter {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  border: none;
+}
+
+.button-plus {
+  right: 13px;
+  top: 12px;
+  background-image: url("../images/plus-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.button-minus {
+  left: 13px;
+  top: 12px;
+  background-image: url("../images/minus-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.button-plus:hover {
+  fill: #000000;
+
 }
 
 .filter-wrapper {
@@ -1422,7 +1462,7 @@ body {
 }
 
 .btn-modal-search:active {
-  outline:none;
+  outline: none;
   background: #68A2CA;
   color: rgba(255, 255, 255, 0.3);
 }

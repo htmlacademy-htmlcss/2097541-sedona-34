@@ -206,23 +206,31 @@
         <form class="modal-search-form">
           <label class="modal-search-label">
             <p class="modal-search-description">Дата заезда:</p>
-            <input class="modal-search-input modal-search-date" type="" name="">
+            <input class="modal-search-input modal-search-date" type="" name="" required>
           </label>
           <p class="modal-search-result search-result-wrong">Мы не можем отправить вас в прошлое.</p>
 
           <label class="modal-search-label">
             <p class="modal-search-description">Дата выезда:</p>
-            <input class="modal-search-input modal-search-date" type="" name="">
+            <input class="modal-search-input modal-search-date" type="" name="" required>
           </label>
           <p class="modal-search-result">На эти даты есть свободные номера. Пока есть.</p>
           <div class="modal-search-wrapper">
             <label class="modal-search-label search-label">
               <p class="modal-search-description adults-description">Взрослые:</p>
-              <input class="modal-search-input modal-search-counter" type="" name="">
+              <div class="search-input-wrapper">
+                <input class="modal-search-input modal-search-counter" type="" name="" required>
+                <button class="button-counter button-plus" type="button"></button>
+                <button class="button-counter button-minus" type="button"></button>
+              </div>
             </label>
             <label class="modal-search-label">
               <p class="modal-search-description children-description">Дети:</p>
-              <input class="modal-search-input modal-search-counter" type="" name="">
+              <div class="search-input-wrapper">
+                <input class="modal-search-input modal-search-counter" type="" name="" required>
+                <button class="button-counter button-plus" type="button"></button>
+                <button class="button-counter button-minus" type="button"></button>
+              </div>
             </label>
           </div>
           <button class="btn btn-blue btn-modal-search" type="submit">Найти</button>
