@@ -206,20 +206,20 @@
         <form class="modal-search-form">
           <label class="modal-search-label">
             <p class="modal-search-description">Дата Заезда:</p>
-            <input class="modal-search-input modal-search-date" type="" name="" required>
+            <input class="modal-search-input modal-search-date"  action="https://echo.htmlacademy.ru/courses" method="get" type="date" name="date-in" required>
           </label>
           <p class="modal-search-result search-result-wrong">Мы не можем отправить вас в прошлое.</p>
 
           <label class="modal-search-label">
             <p class="modal-search-description">Дата Выезда:</p>
-            <input class="modal-search-input modal-search-date" type="" name="" required>
+            <input class="modal-search-input modal-search-date" action="https://echo.htmlacademy.ru/courses" method="get" type="date" name="date-out" required>
           </label>
           <p class="modal-search-result">На эти даты есть свободные номера. Пока есть.</p>
           <div class="modal-search-wrapper">
             <label class="modal-search-label search-label">
               <p class="modal-search-description adults-description">Взрослые:</p>
               <div class="search-input-wrapper">
-                <input class="modal-search-input modal-search-counter" type="" name="" required>
+                <input class="modal-search-input modal-search-counter" type="number" name="adults-count" value="2" required>
                 <button class="button-counter button-plus" type="button">
                   <svg class="button-counter-svg" width="13" height="13" viewBox="0 0 13 13" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -258,7 +258,7 @@
             </div>
             </div>
               <div class="search-input-wrapper">
-                <input class="modal-search-input modal-search-counter" type="" name="" required>
+                <input class="modal-search-input modal-search-counter" type="number" name="children-count" value="1" required>
                 <button class="button-counter button-plus" type="button">
                   <svg class="button-counter-svg" width="13" height="13" viewBox="0 0 13 13" fill="none"
                     xmlns="http://www.w3.org/2000/svg">

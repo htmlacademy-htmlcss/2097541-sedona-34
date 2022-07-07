@@ -653,6 +653,7 @@ body {
   min-width: 420px;
   height: 50px;
   box-sizing: border-box;
+  padding: 15px 19px 14px;
 }
 
 .modal-search-date:hover {
@@ -707,6 +708,12 @@ body {
   outline: none;
   padding: 14px 42px;
   text-align: center;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .search-input-wrapper {
