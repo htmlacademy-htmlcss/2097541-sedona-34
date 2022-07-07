@@ -619,6 +619,7 @@ body {
 .modal-search-label {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .modal-search-description {
@@ -695,8 +696,8 @@ body {
 }
 
 .children-description {
-  margin-right: 13px;
   min-width: 54px;
+  margin-right: 13px;
 }
 
 .modal-search-counter {
@@ -754,6 +755,57 @@ body {
 .button-minus {
   left: 13px;
   top: 12px;
+}
+
+.tooltip {
+  position: absolute;
+left: -62px;
+top: 2px;
+}
+
+.tooltip-wrapper {
+  position: relative;
+}
+
+.tooltip-btn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #83B3D3;
+  border: none;
+  padding: 0;
+  margin: 0 auto 15px;
+  display: block;
+}
+
+.tooltip-btn:hover {
+  background: #68A2CA;
+}
+
+.tooltip-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding: 15px 18px 18px 22px;
+  background-color: #333333;
+  display: block;
+  box-sizing: border-box;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 256px;
+  top: 15px;
+}
+
+.tooltip-text::before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/tool-tip-decor.svg");
+  background-repeat: no-repeat;
+  width: 19px;
+  height: 9px;
+  top: 31px;
+  left:119px;
 }
 
 .filter-wrapper {
