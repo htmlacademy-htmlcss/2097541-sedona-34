@@ -673,6 +673,7 @@ body {
   margin-top: 8px;
   margin-bottom: 11px;
   min-width: 420px;
+  font-size: 16px;
 }
 
 .modal-search-wrapper {
@@ -717,28 +718,43 @@ body {
   width: 25px;
   height: 25px;
   border-radius: 4px;
+  padding:0;
   border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
+
+.button-counter-svg {
+  opacity: 0.3;
+}
+
+.button-counter:hover .button-counter-svg {
+  opacity:1;
+}
+
+.button-counter:focus .button-counter-svg {
+  opacity:1;
+}
+
+.button-counter:focus {
+  border: 3px solid #83B3D3;
+}
+
+.button-counter:active .button-counter-svg {
+  opacity:0.2;
 }
 
 .button-plus {
   right: 13px;
   top: 12px;
-  background-image: url("../images/plus-icon.svg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .button-minus {
   left: 13px;
   top: 12px;
-  background-image: url("../images/minus-icon.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.button-plus:hover {
-  fill: #000000;
-
 }
 
 .filter-wrapper {
