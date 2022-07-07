@@ -674,7 +674,7 @@ body {
   margin-left: auto;
   margin-top: 8px;
   margin-bottom: 11px;
-  min-width: 420px;
+  width: 420px;
   font-size: 16px;
 }
 
@@ -697,8 +697,8 @@ body {
 }
 
 .children-description {
-  min-width: 54px;
-  margin-right: 13px;
+  min-width: ;
+  margin-right: 19px;
 }
 
 .modal-search-counter {
@@ -768,8 +768,9 @@ input[type="number"]::-webkit-inner-spin-button {
   position: absolute;
   width:25px;
   height: 25px;
-  left: 54px;
   top: 2px;
+  right:18px;
+
 }
 
 .tooltip-wrapper {
