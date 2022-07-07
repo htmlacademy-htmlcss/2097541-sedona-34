@@ -562,7 +562,7 @@ body {
   margin: auto;
   padding: 62px 70px 70px;
   background-color: #ffffff;
-  width: 715px;
+  min-width: 715px;
   box-sizing: border-box;
   box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15);
   border-radius: 30px;
@@ -678,7 +678,6 @@ body {
 
 .modal-search-wrapper {
   display: flex;
-  justify-content: end;
   margin-bottom: 40px;
   justify-content: flex-start;
 }
@@ -718,7 +717,7 @@ body {
   width: 25px;
   height: 25px;
   border-radius: 4px;
-  padding:0;
+  padding: 0;
   border: none;
   cursor: pointer;
   display: flex;
@@ -732,11 +731,11 @@ body {
 }
 
 .button-counter:hover .button-counter-svg {
-  opacity:1;
+  opacity: 1;
 }
 
 .button-counter:focus .button-counter-svg {
-  opacity:1;
+  opacity: 1;
 }
 
 .button-counter:focus {
@@ -744,7 +743,7 @@ body {
 }
 
 .button-counter:active .button-counter-svg {
-  opacity:0.2;
+  opacity: 0.2;
 }
 
 .button-plus {
