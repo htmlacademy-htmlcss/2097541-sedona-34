@@ -149,7 +149,7 @@
           <li class="footer-social-item">
             <a class="footer-social-link" href="https://vk.com/htmlacademy">
               <svg class="social-icon" width="24" height="14" viewBox="0 0 24 14" fill="none"
-                xmlns="http://www.w3.org/2000/svg" >
+                xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M23.45 1.45c.17-.55 0-.95-.8-.95h-2.62c-.67 0-.98.35-1.14.73 0 0-1.34 3.2-3.23 5.27-.61.6-.89.8-1.22.8-.17 0-.42-.2-.42-.74V1.45c0-.66-.18-.95-.74-.95H9.15c-.42 0-.67.3-.67.6 0 .61.95.76 1.05 2.5v3.8c0 .84-.16.99-.5.99-.88 0-3.05-3.21-4.33-6.89-.25-.71-.5-1-1.17-1H.9c-.75 0-.9.35-.9.73 0 .68.89 4.07 4.14 8.55 2.18 3.06 5.23 4.72 8.01 4.72 1.67 0 1.88-.37 1.88-1v-2.32c0-.73.16-.88.69-.88.38 0 1.05.2 2.61 1.67 1.78 1.75 2.07 2.53 3.08 2.53h2.62c.75 0 1.13-.37.91-1.1-.24-.72-1.09-1.77-2.21-3.02-.62-.7-1.54-1.47-1.81-1.86-.4-.49-.28-.7 0-1.14 0 0 3.2-4.43 3.53-5.93Z" />
               </svg>
@@ -198,102 +198,122 @@
   </footer>
 
   <div class="modal-container ">
-
-      <section class="modal">
-        <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
-        <button class="modal-close-button">
-          <span class="visually-hidden">Закрыть</span>
-        </button>
-        <form class="modal-search-form" method="get" action="https://echo.htmlacademy.ru/">
-          <div class="modal-search-label">
-            <label class="modal-label" for="date-in-id">
+    <section class="modal">
+      <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+      <button class="modal-close-button">
+        <span class="visually-hidden">Закрыть</span>
+      </button>
+      <form class="modal-search-form" method="get" action="https://echo.htmlacademy.ru/">
+        <div class="modal-search-label">
+          <label class="modal-label" for="date-in-id">
             <span class="modal-search-description">Дата Заезда:</span>
           </label>
-            <input class="modal-search-input modal-search-date" type="text" name="date-in" id="date-in-id" placeholder="Укажите дату"
-              onfocus="(this.type='date')" onblur="(this.type='text')" required>
+          <div class="date-wrapper">
+            <input class="modal-search-input modal-search-date" type="text" name="date-in" id="date-in-id"
+              placeholder="27 апреля 2020" required>
+            <svg class="calendar-icon" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.5 10c.3 0 .5-.2.5-.5S5.8 9 5.5 9s-.5.2-.5.5.2.5.5.5Z" fill="#000" />
+              <path
+                d="M14 2h-2V0h-1v2H4V0H3v2H1c-.6 0-1 .4-1 1v11c0 .5.4 1 1 1h13c.5 0 1-.5 1-1V3c0-.6-.5-1-1-1Zm0 12H1V7h13v7ZM1 6V3h2v2h1V3h7v2h1V3h2v3H1Z"
+                fill="#000" />
+              <path
+                d="M7.5 10c.3 0 .5-.2.5-.5S7.8 9 7.5 9s-.5.2-.5.5.2.5.5.5ZM9.5 10c.3 0 .5-.2.5-.5S9.8 9 9.5 9s-.5.2-.5.5.2.5.5.5ZM5.5 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM3.5 10c.3 0 .5-.2.5-.5S3.8 9 3.5 9s-.5.2-.5.5.2.5.5.5ZM3.5 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM7.5 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM9.5 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM11.5 10c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM11.5 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5Z"
+                fill="#000" />
+            </svg>
           </div>
-          <p class="modal-search-result search-result-wrong">Мы не можем отправить вас в прошлое.</p>
-          <div class="modal-search-label">
-            <label class="modal-label" for="date-out-id">
+        </div>
+        <p class="modal-search-result search-result-wrong">Мы не можем отправить вас в прошлое.</p>
+        <div class="modal-search-label">
+          <label class="modal-label" for="date-out-id">
             <span class="modal-search-description">Дата Выезда:</span>
           </label>
-            <input class="modal-search-input modal-search-date" type="text" name="date-out" id="date-out-id" placeholder="Укажите дату"
-              onfocus="(this.type='date')" onblur="(this.type='text')" required>
+          <div class="date-wrapper">
+          <input class="modal-search-input modal-search-date" type="text" name="date-out" id="date-out-id"
+            placeholder="1 сентября 2021" required>
+            <svg class="calendar-icon" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.5 10c.3 0 .5-.2.5-.5S5.8 9 5.5 9s-.5.2-.5.5.2.5.5.5Z" fill="#000" />
+              <path
+                d="M14 2h-2V0h-1v2H4V0H3v2H1c-.6 0-1 .4-1 1v11c0 .5.4 1 1 1h13c.5 0 1-.5 1-1V3c0-.6-.5-1-1-1Zm0 12H1V7h13v7ZM1 6V3h2v2h1V3h7v2h1V3h2v3H1Z"
+                fill="#000" />
+              <path
+                d="M7.5 10c.3 0 .5-.2.5-.5S7.8 9 7.5 9s-.5.2-.5.5.2.5.5.5ZM9.5 10c.3 0 .5-.2.5-.5S9.8 9 9.5 9s-.5.2-.5.5.2.5.5.5ZM5.5 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM3.5 10c.3 0 .5-.2.5-.5S3.8 9 3.5 9s-.5.2-.5.5.2.5.5.5ZM3.5 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM7.5 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM9.5 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM11.5 10c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM11.5 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5Z"
+                fill="#000" />
+            </svg>
           </div>
-          <p class="modal-search-result">На эти даты есть свободные номера. Пока есть.</p>
-          <div class="modal-search-wrapper">
-            <div class="modal-search-label modal-search-adults">
-              <label class="modal-label" for="adults-count-id">
-                <span class="modal-search-description adults-description">Взрослые:</span>
-              </label>
-              <div class="search-input-wrapper">
-                <input class="modal-search-input modal-search-counter" type="number" name="adults-count" id="adults-count-id" value="2"
-                  required>
-                <button class="button-counter button-plus" type="button">
-                  <svg class="button-counter-svg" width="13" height="13" viewBox="0 0 13 13" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" fill="#000" />
-                  </svg>
-                </button>
-                <button class="button-counter button-minus" type="button">
-                  <svg class="button-counter-svg" width="13" height="1" viewBox="0 0 13 1" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 0v1h13V0H0Z" fill="#000" />
-                  </svg>
-                </button>
-              </div>
+        </div>
+        <p class="modal-search-result">На эти даты есть свободные номера. Пока есть.</p>
+        <div class="modal-search-wrapper">
+          <div class="modal-search-label modal-search-adults">
+            <label class="modal-label" for="adults-count-id">
+              <span class="modal-search-description adults-description">Взрослые:</span>
+            </label>
+            <div class="search-input-wrapper">
+              <input class="modal-search-input modal-search-counter" type="number" name="adults-count"
+                id="adults-count-id" value="2" required>
+              <button class="button-counter button-plus" type="button">
+                <svg class="button-counter-svg" width="13" height="13" viewBox="0 0 13 13" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" fill="#000" />
+                </svg>
+              </button>
+              <button class="button-counter button-minus" type="button">
+                <svg class="button-counter-svg" width="13" height="1" viewBox="0 0 13 1" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0v1h13V0H0Z" fill="#000" />
+                </svg>
+              </button>
             </div>
-            <div class="modal-search-label">
+          </div>
+          <div class="modal-search-label">
             <label class="modal-label" for="children-count-id"></label>
-              <div class="tooltip-wrapper">
-                <p class="modal-search-description children-description">Дети:</p>
-                <div class="tooltip">
-                  <button class="tooltip-btn" type="button" aria-labelledby="tooltip-label">
-                    <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#a)" fill="#fff">
-                        <path d="M0 9h1V3H0v6ZM1 0H0v1h1V0Z" />
-                      </g>
-                      <defs>
-                        <clipPath id="a">
-                          <path fill="#fff" d="M0 0h1v9H0z" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </button>
-                  <div class="tooltip-text-wrapper">
-                    <span class="tooltip-text-decore"></span>
-                    <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут
-                      с
-                      вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.
-                    </span>
-                  </div>
+            <div class="tooltip-wrapper">
+              <p class="modal-search-description children-description">Дети:</p>
+              <div class="tooltip">
+                <button class="tooltip-btn" type="button" aria-labelledby="tooltip-label">
+                  <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#a)" fill="#fff">
+                      <path d="M0 9h1V3H0v6ZM1 0H0v1h1V0Z" />
+                    </g>
+                    <defs>
+                      <clipPath id="a">
+                        <path fill="#fff" d="M0 0h1v9H0z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </button>
+                <div class="tooltip-text-wrapper">
+                  <span class="tooltip-text-decore"></span>
+                  <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут
+                    с
+                    вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.
+                  </span>
                 </div>
               </div>
-
-              <div class="search-input-wrapper">
-                <input class="modal-search-input modal-search-counter" type="number" name="children-count" id="children-count-id" value="1"
-                  required>
-                <button class="button-counter button-plus" type="button">
-                  <svg class="button-counter-svg" width="13" height="13" viewBox="0 0 13 13" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" fill="#000" />
-                  </svg>
-                </button>
-                <button class="button-counter button-minus" type="button">
-                  <svg class="button-counter-svg" width="13" height="1" viewBox="0 0 13 1" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 0v1h13V0H0Z" fill="#000" />
-                  </svg>
-                </button>
-              </div>
-
             </div>
+
+            <div class="search-input-wrapper">
+              <input class="modal-search-input modal-search-counter" type="number" name="children-count"
+                id="children-count-id" value="1" required>
+              <button class="button-counter button-plus" type="button">
+                <svg class="button-counter-svg" width="13" height="13" viewBox="0 0 13 13" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" fill="#000" />
+                </svg>
+              </button>
+              <button class="button-counter button-minus" type="button">
+                <svg class="button-counter-svg" width="13" height="1" viewBox="0 0 13 1" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0v1h13V0H0Z" fill="#000" />
+                </svg>
+              </button>
+            </div>
+
           </div>
+        </div>
 
-          <button class="btn btn-blue btn-modal-search" type="submit">Найти</button>
-        </form>
-      </section>
-
+        <button class="btn btn-blue btn-modal-search" type="submit">Найти</button>
+      </form>
+    </section>
   </div>
 </body>
 
