@@ -972,7 +972,7 @@ input[type="number"]:focus {
   width: 20px;
 }
 
-.control-input[type="checkbox"]:checked + .control-mark:before {
+.control-input[type="checkbox"]:checked + .control-mark::before {
   background-image: url("../images/check-mark.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -1004,7 +1004,7 @@ input[type="number"]:focus {
   width: 20px;
 }
 
-.control-input[type="radio"]:checked + .control-mark:before {
+.control-input[type="radio"]:checked + .control-mark::before {
   background: #3f5e72;
   border-radius: 50%;
   content: "";
