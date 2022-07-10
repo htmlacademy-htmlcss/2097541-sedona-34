@@ -855,6 +855,7 @@ input[type="number"]:focus {
   list-style-type: none;
   margin: 0;
   padding-left: 2px;
+  flex-wrap: wrap;
 }
 
 .breadcrumbs-item:not(:first-child) {
@@ -1131,7 +1132,7 @@ input[type="number"]:focus {
 }
 
 .catalog-hotel-sort {
-  padding: 55px 71px 25px 73px;
+  padding: 55px 71px 20px 73px;
 }
 
 .catalog-hotel-sort-title {
@@ -1200,6 +1201,8 @@ input[type="number"]:focus {
 
 .cards-view-wrapper {
   display: flex;
+  max-width: 280px;
+  flex-wrap:wrap;
 }
 
 .cards-view-wrapper :last-child {
@@ -1297,6 +1300,7 @@ input[type="number"]:focus {
   display: flex;
   position: relative;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .catalog-pagination-wrapper::before {
@@ -1323,7 +1327,12 @@ input[type="number"]:focus {
   padding: 0;
   text-align: center;
   text-transform: uppercase;
-  overflow: auto;
+  max-width: 540px;
+  flex-wrap: wrap;
+}
+
+.pagination-item {
+  margin-bottom: 5px;
 }
 
 .pagination-item:not(:last-child) {
@@ -1375,6 +1384,7 @@ outline: none;
   max-height: 49px;
   min-width: 160px;
   padding: 12px 40px 12px 18px;
+  margin-top: 5.5px;
 }
 
 .newsletter-dark {
