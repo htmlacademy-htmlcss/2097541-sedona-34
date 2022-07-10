@@ -1387,6 +1387,23 @@ outline: none;
   margin-top: 5.5px;
 }
 
+.pagination-view-select:hover {
+  border: 2px solid #68A2CA;
+}
+
+.pagination-view-select:focus {
+  border: 2px solid #68A2CA;
+  outline: none;
+}
+
+.pagination-view-select:active {
+  border: 2px solid #3F5E72;
+}
+
+.pagination-view-select:disabled {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
 .newsletter-dark {
   background: none;
 }
@@ -1566,4 +1583,20 @@ outline: none;
   background: #68A2CA;
   color: rgba(255, 255, 255, 0.3);
   outline: none;
+}
+
+.logo-link:focus {
+  outline: 3px solid #68A2CA;
+}
+
+.navigation-link:focus {
+  outline: 3px solid #68A2CA;
+}
+
+.newsletter-form-email-field:focus {
+  outline: 3px solid #68A2CA;
+}
+
+.hotel-card-title-link:focus {
+  outline: 3px solid #68A2CA;
 }
