@@ -722,16 +722,13 @@ body {
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
+          appearance: none;
   margin: 0;
 }
 
 input[type="number"] {
-  -moz-appearance: textfield;
-}
-
-input[type="number"]:hover,
-input[type="number"]:focus {
-  -moz-appearance: number-input;
+  -webkit-appearance: textfield;
+          appearance: textfield;
 }
 
 .search-input-wrapper {
@@ -1085,7 +1082,8 @@ input[type="number"]:focus {
 
 .range-input::-webkit-outer-spin-button,
 .range-input::-webkit-inner-spin-button {
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   margin: 0;
 }
 
@@ -1181,7 +1179,8 @@ input[type="number"]:focus {
 }
 
 .select-control {
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   background-image: url("../images/select-arrow.svg");
   background-position: right 20px center;
   background-repeat: no-repeat;
@@ -1388,7 +1387,8 @@ input[type="number"]:focus {
 }
 
 .pagination-view-select {
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   background-image: url("../images/select-arrow.svg");
   background-position: right 20px center;
   background-repeat: no-repeat;
