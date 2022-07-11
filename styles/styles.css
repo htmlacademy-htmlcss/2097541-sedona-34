@@ -31,6 +31,11 @@ body {
   min-width: 1200px;
 }
 
+img{
+max-width:100%;
+object-fit: cover;
+}
+
 .visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -68,6 +73,10 @@ body {
 
 .logo-link {
   margin-right: 30px;
+  height: 70px;
+  width: 139px;
+  display: flex;
+  justify-content: center;
 }
 
 .logo-img {
@@ -190,6 +199,8 @@ body {
   align-items: flex-start;
   display: block;
   margin: 0 auto;
+  width: 458px;
+  height: 352px;
 }
 
 .advantages {
@@ -232,7 +243,7 @@ body {
   box-sizing: border-box;
   color: #ffffff;
   min-height: 384px;
-  min-width: 400px;
+  width: 400px;
   padding: 92px 85px;
 }
 
@@ -243,6 +254,10 @@ body {
 .advantages-item-wrapper {
   background-color: #82b3d3;
   display: flex;
+}
+
+.advantages-img {
+  width: 800px;
 }
 
 .advantages-item-size {
@@ -1298,6 +1313,11 @@ input[type="number"] {
   line-height: 20px;
   text-decoration: none;
   padding: 9px 15px 8px;
+}
+
+.hotel-card-stars-img {
+  height: 37px;
+  width: 140px;
 }
 
 .rating-description {
