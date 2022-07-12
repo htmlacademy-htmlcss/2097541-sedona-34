@@ -258,6 +258,7 @@ object-fit: cover;
 
 .advantages-img {
   width: 800px;
+  height: 384px;
 }
 
 .advantages-item-size {
@@ -1626,8 +1627,12 @@ input[type="number"] {
   outline: 3px solid #68a2ca;
 }
 
-.navigation-link:focus {
-  outline: 3px solid #68a2ca;
+.navigation-user  .navigation-link:hover {
+  background-color:rgba(0, 0, 0, 0.1);
+}
+
+.navigation-user .navigation-link:focus {
+  background-color:rgba(0, 0, 0, 0.15);
 }
 
 .newsletter-form-email-field:focus {
