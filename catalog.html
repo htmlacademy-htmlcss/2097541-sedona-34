@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>Каталог</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   <link rel="stylesheet" href="styles/styles.css">
-  <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
@@ -151,8 +151,16 @@
               </div>
               <div class="range-scale">
                 <div class="range-bar" style="left: 10px; width: 218px">
-                  <button class="range-toggle toggle-min" type="button"></button>
-                  <button class="range-toggle toggle-max" type="button"></button>
+                  <button class="range-toggle toggle-min" type="button">
+                    <span class="visually-hidden">
+                      Задать минимальную цену
+                    </span>
+                  </button>
+                  <button class="range-toggle toggle-max" type="button">
+                    <span class="visually-hidden">
+                      Задать максимальную цену
+                    </span>
+                  </button>
                 </div>
               </div>
             </fieldset>
